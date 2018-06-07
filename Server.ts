@@ -32,10 +32,8 @@ namespace Server {
         _response.setHeader("content-type", "text/html; charset=utf-8");
         _response.setHeader("Access-Control-Allow-Origin", "*");
         
-        _response.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');//Options: Um abzufragen, ob man auf den Server zugreifen kann
-        _response.setHeader('Access-Control-Allow-Headers', '*');//GET: Um Antwort zurück zu bekommen
     });
-    server.addListener("speichern", handleRequest);
+    server.addListener("request", handleRequest);
     server.listen(port);
 
     function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerResponse): void {
