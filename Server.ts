@@ -50,7 +50,7 @@ namespace Server {
                     refresh(_response);
                     break;
                     
-                case "suchen":
+                case "search":
                     search(query, _response);
                     break;
                
