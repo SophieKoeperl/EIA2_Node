@@ -1,15 +1,16 @@
 {
-	"name" : "Servertest",
-	"version" : "1.0.0",
-	"description" : "First Server Test",
-	"author" : "Jirka",
-	"main" : "Server.js",
-	"scripts" : {
-		"start" : "node Server.js"
+	"name": "Servertest",
+	"version": "1.0.0",
+	"description": "First Server Test",
+	"author": "Sophie",
+	"main": "Server.js",
+	"scripts": {
+		"start": "node Server.js"
 	},
-	"engines" : {
-		"node" : "6.11.1"
+	"engines": {
+		"node": "6.11.1"
 	},
-	"dependencies" : "mongodb" {
+	"dependencies": {
+		"mongodb": "^3.0.1"
 	}
 }
