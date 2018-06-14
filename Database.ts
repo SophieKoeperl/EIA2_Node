@@ -45,7 +45,7 @@ export function findAll(_callback: Function): void {
         } else {
             let line: string;
             for (let i: number = 0; i < studentArray.length; i++) {
-            line += studentArray[i].matrikel + ": " + studentArray[i].studiengang + ", " + studentArray[i].name + ", " + studentArray[i].firstname + ", " + studentArray[i].age + ", "; 
+            line = studentArray[i].matrikel + ": " + studentArray[i].studiengang + ", " + studentArray[i].name + ", " + studentArray[i].firstname + ", " + studentArray[i].age + ", "; 
             line += studentArray[i].gender ? "(M)" : "(F)";
             line += "\n";
             }
