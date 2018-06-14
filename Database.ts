@@ -9,7 +9,7 @@ let students: Mongo.Collection;
 if (process.env.NODE_ENV == "production") {
     //    databaseURL = "mongodb://username:password@hostname:port/database";
     databaseURL = "mongodb://koeperls:EIA2mLab@ds147390.mlab.com:47390/koeperls";
-    databaseName = "studenten";
+    databaseName = "koeperls";
 }
 
 // handleConnect wird aufgerufen wenn der Versuch, die Connection zur Datenbank herzustellen, erfolgte
